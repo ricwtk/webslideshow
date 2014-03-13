@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>An HTML5 Slideshow</title>
+<link rel="stylesheet" type="text/css" href="styles_2.css" />
+</head>
+<body>
+
+	<input type="radio" name="imradio" id="im1" checked="checked"></input>
+	<input type="radio" name="imradio" id="im2"></input>
+	<input type="radio" name="imradio" id="im3"></input>
+	<input type="radio" name="imradio" id="im4"></input>
+
+	<div class="slides"> 
+		<div id="i1" class="imgholder"><img src="1.jpg"></div>
+		<div id="i2" class="imgholder"><img src="2.jpg"></div>
+		<div id="i3" class="imgholder"><img src="3.jpg"></div>
+		<div id="i4" class="imgholder"><img src="4.jpg"></div>
+	</div>
+	
+	<!-- navleft -->
+	<label for="im1" class="navleft a1" onclick="">&lt;</label>
+	<label for="im2" class="navleft a2" onclick="">&lt;</label>
+	<label for="im3" class="navleft a3" onclick="">&lt;</label>
+	<label for="im4" class="navleft a4" onclick="">&lt;</label>
+
+	<!-- navright -->
+	<label for="im1" class="navright a1" onclick="">&gt;</label>
+	<label for="im2" class="navright a2" onclick="">&gt;</label>
+	<label for="im3" class="navright a3" onclick="">&gt;</label>
+	<label for="im4" class="navright a4" onclick="">&gt;</label>
+	
+	<!-- image stripes -->
+	<div class="stripes"> 
+		<label for="im1" onclick=""><img src="1.jpg"></label>
+		<label for="im2" onclick=""><img src="2.jpg"></label>
+		<label for="im3" onclick=""><img src="3.jpg"></label>
+		<label for="im4" onclick=""><img src="4.jpg"></label>
+	</div>
+	
+	<!-- external links -->
+	<div class="extln">
+		<a class="ln" href="http://epg.eng.ox.ac.uk/">EPG homepage</a>
+	</div>
+</body>
+</html>
